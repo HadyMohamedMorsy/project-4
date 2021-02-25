@@ -1,0 +1,57 @@
+{
+    "getdata" : [
+            {   "id" : 1,
+                "icon" :"fas fa-list-ul fonts-icon",
+                "header" : "Environment Analysis",
+                "textcontent" : "The starting point of any success story is knowing your current position in the business environment Sales water"
+            },
+            {
+                "id" : 2,
+                "icon" :"fas fa-binoculars fonts-icon",
+                "header" : "Development Planning",
+                "textcontent" : "After completing the environmental analysis the next stage is to design and plan your development strategy"
+
+            },
+            {
+                "id" : 3,
+                "icon" : "fas fa-chart-pie fonts-icon",
+                "header" : "Execution & Evaluation",
+                "textcontent" : "In this phase you will focus on executing the actions plan and evaluating the results after each marketing"
+                
+            }
+    ],
+
+    "gerservices" : [
+
+        {   "id" : 1,
+            "image" :"images/services-1.jpg",
+            "header" : "Off The Ground Off The Ground",
+            "textcontent" : "Perfect for fresh ideas or young startups, this package will help get the business off the ground",
+            "listfirst" : "Environment and competition",
+            "listsecound" : "Designing the marketing plan",
+            "price" : "$199"
+        },
+        {
+            "id" : 2,
+            "image" :"images/services-2.jpg",
+            "header" : "Accelerated Growth",
+            "textcontent" : "Use this service pack to give your company the necessary impulse to become an industry leader",
+            "listfirst" : "Business strategy plannin",
+            "listsecound" : "Taking the planned actions",
+            "price" : "$299"
+
+            
+
+        },
+        {
+            "id" : 3,
+            "image" : "images/services-3.jpg",
+            "header" : "Market Domination",
+            "textcontent" : "You already are a reference point in your industry now you need to learn about acquisitions",
+            "listfirst" : "Maintaining the leader status",
+            "listsecound" : "Acquisitions the right way",
+            "price" : "$299"
+        }
+
+    ]
+}

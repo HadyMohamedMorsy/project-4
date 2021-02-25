@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/project-4/static/css/main.37d0030a.chunk.css",
+    "main.js": "/project-4/static/js/main.d168355a.chunk.js",
+    "main.js.map": "/project-4/static/js/main.d168355a.chunk.js.map",
+    "runtime-main.js": "/project-4/static/js/runtime-main.45f0f8c3.js",
+    "runtime-main.js.map": "/project-4/static/js/runtime-main.45f0f8c3.js.map",
+    "static/js/2.64647821.chunk.js": "/project-4/static/js/2.64647821.chunk.js",
+    "static/js/2.64647821.chunk.js.map": "/project-4/static/js/2.64647821.chunk.js.map",
+    "index.html": "/project-4/index.html",
+    "static/css/main.37d0030a.chunk.css.map": "/project-4/static/css/main.37d0030a.chunk.css.map",
+    "static/js/2.64647821.chunk.js.LICENSE.txt": "/project-4/static/js/2.64647821.chunk.js.LICENSE.txt",
+    "static/media/header.scss": "/project-4/static/media/header-background.b4819dd2.jpg",
+    "static/media/intro.scss": "/project-4/static/media/hexagon-green.20a193df.svg",
+    "static/media/intro-office.152f555b.jpg": "/project-4/static/media/intro-office.152f555b.jpg",
+    "static/media/logo.556bae3a.svg": "/project-4/static/media/logo.556bae3a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45f0f8c3.js",
+    "static/js/2.64647821.chunk.js",
+    "static/css/main.37d0030a.chunk.css",
+    "static/js/main.d168355a.chunk.js"
+  ]
+}
