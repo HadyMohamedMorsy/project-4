@@ -1,0 +1,406 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+.Accelerate{
+    &-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-item{
+            @include breakepoint-down(mid){
+                width: 100%;
+            }
+            @include breakepoint-up(lg){
+                @include flexbox(6);
+            }
+            img{
+                width: 100%;
+                vertical-align: middle;
+                border-style: none;
+            }
+           
+    }
+    &-item{
+        &:nth-child(2){
+            padding: 2.8125rem;
+            @include breakepoint-down(mid){
+                padding: 2.25rem 2.5rem 2.125rem 2.5rem;
+                margin-left:0.9375rem;
+                margin-right:0.9375rem;
+            }
+            @include breakepoint-down(lg){
+                width: 85%;
+                padding: 0.8125rem;
+            }
+            @include breakepoint-down(mid){
+                width: 62%;
+            }
+            @include breakepoint-down(small){
+                width: 90%;
+            }
+            margin-left: auto;
+            margin-right: auto;
+            h2{
+                margin-bottom: 3.25rem;
+                @include breakepoint-up(lg){
+                    width: 85%;
+                }
+                @include breakepoint-down(mid){
+                    width: 100%;
+                    font-size: 1.25rem;
+                    
+                }
+                @include breakepoint-down(small){
+                    width: 90%;
+                }
+
+            }
+
+            .Accelerate-item-chiled{
+                .clickable-change{
+                    margin: 0.8125rem 0rem;
+                    transition: all 0.4s ease-in-out;
+                    .clickable-span{
+                        transition: all 0.2s ease;
+                        .span-numbers{
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            display: inline-block;
+                            line-height: 2.5rem;
+                            position: relative;
+                            background-color: transparent;
+                            border :0.125rem solid $Leaden ;
+                            border-radius: 50%;
+                            vertical-align: middle;
+                            margin-right: 0.9375rem;
+                            color : $Leaden;
+                            span{
+                                position: absolute;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                border: none;
+                            }
+                        }
+                        .span-links{
+                            cursor: pointer;
+                            display: inline-block;
+                            margin-top: 0.125rem;
+                            margin-bottom: 0.25rem;
+                            color: $Leaden;
+                            @include breakepoint-down(small){
+                                font: 700 0.75rem  "Montserrat", sans-serif;
+                            }
+                            @include breakepoint-down(mid){
+                                font: 700 0.80rem  "Montserrat", sans-serif;
+                            }
+                            @include breakepoint-up(lg){
+                                font: 700 1.15rem  "Montserrat", sans-serif;
+                            }
+                            font: 700 1.25rem/1.75rem "Montserrat", sans-serif;
+                            vertical-align: middle;
+                            border: none;
+
+
+    
+                        }
+                        &:hover{
+                            span{
+                                color: $green;
+    
+                            }
+                            .span-numbers{
+                                border :0.125rem solid $green;
+                            }
+                            
+                        }
+                    }
+                    .last-Accelerate{
+                            width: 75%;
+                            @include breakepoint-down(mid){
+                                width: 100%;
+                            }
+                            margin-left: 3.5rem;
+                            @include breakepoint-down(small){
+                                margin-left: 2.8125rem;
+                            }
+                        p{
+                            display: none;
+                            animation: fade-out 400ms ease-in-out forwards;
+                        
+                        }
+                        .local{
+                            display: block;
+                            animation: fade-in 400ms ease-in-out forwards;
+                            font-size: 11px;
+                        }
+                        
+                    }
+
+
+                }
+                
+            }
+        }
+        
+    }
+}
+
+@keyframes fade-in{
+    form{
+        visibility: hidden;
+        opacity: 0;
+    }
+    1%{
+        visibility: visible;
+        opacity: 0;
+    }
+    to{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.fade-in{
+    animation: fade-in 300ms ease-in-out forwards;
+}
+
+@keyframes fade-out{
+    from{
+        visibility: visible;
+        opacity: 1;
+    }
+     99%{
+        visibility:visible;
+        opacity: 0;
+
+     }
+     to{
+         visibility: hidden;
+         opacity: 0;
+     }
+}
+
+.Accelerate-secound{
+    &-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-item{
+        @include breakepoint-down(mid){
+            width: 100%;
+        }
+        @include breakepoint-up(lg){
+            @include flexbox(6);
+        }
+        img{
+            width: 100%;
+            vertical-align: middle;
+            border-style: none;
+            height: 100%;
+        }
+        h2{
+            margin-bottom: 3.25rem;
+            @include breakepoint-up(lg){
+                width: 85%;
+            }
+            @include breakepoint-down(mid){
+                width: 100%;
+                font-size: 1.25rem;
+                
+            }
+            @include breakepoint-down(small){
+                width: 90%;
+            }
+
+        }
+    }
+    &-item{
+
+        &:first-child{
+            .Accelerate-secound-child{
+                max-width: 80%;
+                @include breakepoint-down(mid){
+                    max-width: 90%;
+                    margin-left: 0.9375rem;
+                    margin-right: 0.9375rem;
+                    padding: 0.8125rem;
+                 }
+                margin-right: 5rem;
+                margin-left: auto;
+                padding-top: 6.75rem;
+                padding-bottom: 0;
+
+
+                .lists-of-chiled{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .lists-all{
+                        padding: 0px 10px ;
+                        @include breakepoint-down(small){
+                            padding: 10px 0px ;
+                        }
+                    }
+                    @include breakepoint-down(small){
+                        display : block;
+                    }
+                    .lists-chiled{
+
+                        cursor: pointer;
+                        color: #787976;
+            
+                        font: 700 1.375rem "Open Sans", sans-serif;
+                            @include breakepoint-down(small){
+                                margin: 0;
+                                margin-bottom: 0.9375rem;
+
+                        }
+                        &.active{
+                            color: $green;
+                        }
+                    }
+                }
+                .First{
+                    display: block;
+                    .pargraph{
+                        @include breakepoint-down(lg){
+                            max-width: 90%;
+                            margin-bottom: 1.25rem;
+                            
+                        }
+                        @include breakepoint-down(mid){
+                            max-width: 90%;
+                            margin-bottom: 0.625rem;
+                            
+                        }
+                        @include breakepoint-up(lg){
+                            max-width: 70%;
+                            margin-bottom: 0.625rem;
+                            
+                        }
+                    }
+                    .parent-width{
+                        @include breakepoint-down(mid){
+                            max-width: 90%;
+                           
+                        }
+                        &:last-of-type{
+                            
+                        @include breakepoint-down(mid){
+                            margin-bottom: 2.5rem;
+                            
+                        }
+                
+                        }
+                
+                        @include breakepoint-up(lg){
+                            max-width: 70%;
+                            margin-bottom: 1rem;
+                            
+                        }
+                        background-color: #f9fafc;
+                        height: 1.25rem;
+                        position: relative;
+                        border-radius: 0.125rem;
+                
+                        .child-width{
+                            position: absolute;
+                            height: 100%;
+                            border-radius: 0.125rem;
+                            background: linear-gradient(to bottom right, #14bf98, #1bd1a7);
+                
+                        }
+                        .first-width{
+                            width: 100%;
+                        }
+                        .secound-width{
+                            width: 76%;
+                        }
+                        .thired-width{
+                            width: 90%;
+                          
+                        }
+                    }
+                }
+                .secound{
+                    display: none;
+                    padding-top: 1.875rem;
+                    .chiled-flex{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .list-of-chiled-secound{
+
+                            @include breakepoint-up(lg){
+                                margin-bottom: 1.1rem;
+                             }
+                             @include breakepoint-down(mid){
+                                margin-bottom: 1.5rem;
+                             }
+                            @include breakepoint-down(mid){
+                                @include flexbox(12);
+                             }
+                             @include flexbox(5.4);
+                             display: flex;
+                
+                             span:first-child{
+                                @include flexbox(2);
+                                vertical-align: middle;
+                                text-align: right;
+                                color: #14bf98;
+                                font-weight: 600;
+                                font-size: 1.9rem;
+                                line-height: 2rem;
+                                @include breakepoint-down(mid){
+                                    margin-right: 0;
+                                    text-align: left;
+                                    @include flexbox(1);
+                                }
+                             }
+                             span:last-child{
+                                color: #787976;
+                                @include breakepoint-up(lg){
+                                    @include flexbox(8);
+                                    font-size: 1.125rem;
+                                 }
+                                 @include breakepoint-down(mid){
+                                    font-size:1.15rem;
+                                 }
+
+                
+                             }
+                             .number{
+                                margin-right: 0.625rem;
+                             }
+                        }
+                    }
+                }
+                .thired{
+                    display: none;
+                    @include breakepoint-down(small){
+                        font-size: 13px;
+                    }
+                    .last-of-secound{
+                        @include breakepoint-down(small){
+                            font-size: 13px;
+                        }
+                    }
+                
+                    ul{
+                        li{
+                            color: $Leaden;
+                            @include breakepoint-down(smal){
+                                margin-bottom: 10px;
+                             }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+.chiled-of-secound:last-child{
+
+
+}
+

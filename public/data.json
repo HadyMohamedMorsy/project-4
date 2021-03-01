@@ -1,0 +1,332 @@
+{
+    "getdata" : [
+            {   "id" : 1,
+                "icon" :"fas fa-list-ul fonts-icon",
+                "header" : "Environment Analysis",
+                "textcontent" : "The starting point of any success story is knowing your current position in the business environment Sales water"
+            },
+            {
+                "id" : 2,
+                "icon" :"fas fa-binoculars fonts-icon",
+                "header" : "Development Planning",
+                "textcontent" : "After completing the environmental analysis the next stage is to design and plan your development strategy"
+
+            },
+            {
+                "id" : 3,
+                "icon" : "fas fa-chart-pie fonts-icon",
+                "header" : "Execution & Evaluation",
+                "textcontent" : "In this phase you will focus on executing the actions plan and evaluating the results after each marketing"
+                
+            }
+    ],
+
+    "gerservices" : [
+
+        {   "id" : 1,
+            "image" :"images/services-1.jpg",
+            "header" : "Off The Ground Off The Ground",
+            "textcontent" : "Perfect for fresh ideas or young startups, this package will help get the business off the ground",
+            "listfirst" : "Environment and competition",
+            "listsecound" : "Designing the marketing plan",
+            "price" : "$199"
+        },
+        {
+            "id" : 2,
+            "image" :"images/services-2.jpg",
+            "header" : "Accelerated Growth",
+            "textcontent" : "Use this service pack to give your company the necessary impulse to become an industry leader",
+            "listfirst" : "Business strategy plannin",
+            "listsecound" : "Taking the planned actions",
+            "price" : "$299"
+
+            
+
+        },
+        {
+            "id" : 3,
+            "image" : "images/services-3.jpg",
+            "header" : "Market Domination",
+            "textcontent" : "You already are a reference point in your industry now you need to learn about acquisitions",
+            "listfirst" : "Maintaining the leader status",
+            "listsecound" : "Acquisitions the right way",
+            "price" : "$299"
+        }
+
+    ],
+    "getTestemonia" : [
+
+        {   "id" : 1,
+            "image" : "images/testimonial-1.jpg",
+            "contentTextMargin" : "Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.",
+            "testimonialauthor" : "Jude Thorn - Founder"
+        },
+        {
+            "id" : 2,
+            "image" : "images/testimonial-2.jpg",
+            "contentTextMargin" : "I recommend Aria to every business owner or growth leader that wants to take his company to the next level.",
+            "testimonialauthor" : "Lindsay Rune - Manager" 
+
+        },
+        {
+            "id" : 3,
+            "image" : "images/testimonial-3.jpg",
+            "contentTextMargin" : "The guys from Aria helped with getting my business off the ground and turning into a profitable company. ",
+            "testimonialauthor" : "Roy Smith - Developer"
+
+        },
+        {
+            "id" : 4,
+            "image" : "images/testimonial-4.jpg",
+            "contentTextMargin" : "My goals for using Aria's services seemed high when I first set them but they've met them with no problems.",
+            "testimonialauthor" : "Ann Black - Consultant"
+
+        },
+        {
+            "id" : 5,
+            "image" : "images/testimonial-5.jpg",
+            "contentTextMargin" : "I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year.",
+            "testimonialauthor" : "Marsha Singer - Marketer"
+
+        },
+        {
+            "id" : 6,
+            "image" : "images/testimonial-6.jpg",
+            "contentTextMargin" : "At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.",
+            "testimonialauthor" : "Ronald Spice - Owner"
+
+        }
+
+    ],
+
+    "Bussness" : [
+
+            {
+                "id" : 1,
+                "span" : 1,
+                "spanlinks" : "How Can Aria Help Your Business",
+                "dataHere" : "first",
+                "classes" : "classes-one",
+                "idPargraph" : "first",
+                "pargraph" : "At Aria solutions, we’ve taken the consultancy concept one step further by offering a full service management organization with expertise."
+
+            },
+            {
+                "id" : 2,
+                "span" : 2,
+                "spanlinks" : "Great Strategic Business Planning",
+                "dataHere" : "secound",
+                "classes" : "classes-two",
+                "idPargraph" : "secound",
+                "pargraph" : "Aria partners with businesses to business growth and development ideas including environment analysis, plan execution and evaluation."
+
+            },
+            {
+                "id" : 3,
+                "span" : 3,
+                "spanlinks" : "Online Marketing Campaigns",
+                "dataHere" : "thired",
+                "classes" : "classes-three",
+                "idPargraph" : "thired",
+                "pargraph" : "An awesome online marketing plan won't save your bad product but paired with a good product, the sky is the limit for what can be achieved."
+
+            }
+    ],
+
+    "icones" : [
+
+        {
+            "id" : 1,
+            "classname" : "active lists-chiled",
+            "dataactive" : "First-child",
+            "span" : "Business"
+
+
+        },
+        {
+            "id" : 2,
+            "classname" : "lists-chiled",
+            "dataactive" : "secound-child",
+            "span" : "Expertise"
+
+
+        },
+        {
+            "id" : 3,
+            "classname" : "lists-chiled",
+            "dataactive" : "thired-child",
+            "span" : "Quality"
+
+
+        }
+    ],
+
+    "froms" : [
+        {
+            "id" : 1,
+            "idid" : "lname",
+            "label" : "Name"
+            
+
+        },
+        {
+            "id" : 2,
+            "idid" : "lphone",
+            "label" : "Phone"
+
+        },
+        {
+            "id" : 3,
+            "idid" : "lemail",
+            "label" : "Email"
+
+        }
+
+
+    ],
+    "lists" : [
+        {
+           "id" : 1,
+           "text" : "It's very easy just fill in the form so we can call"
+            
+        },
+        {
+            "id" : 2,
+            "text" : "During the call we'll require some info about the company"
+             
+         },
+         {
+            "id" : 3,
+            "text" : "Don't hesitate to email us for any questions or inquiries"
+             
+         }
+
+    ],
+    "buttones" : [
+        {
+           "id" : 1,
+           "classes" : "button is-checked",
+           "filter" : "All",
+           "textcontent" : "SHOW ALL"
+            
+        },
+        {
+            "id" : 2,
+            "classes" : "button",
+            "filter" : "design",
+            "textcontent" : "DESIGN"
+             
+         },
+         {
+            "id" : 3,
+            "classes" : "button",
+            "filter" : "development",
+            "textcontent" : "DEVELOPMENT"
+             
+         },
+         {
+            "id" : 4,
+            "classes" : "button",
+            "filter" : "marketing",
+            "textcontent" : "MARKETING"
+             
+         },
+         {
+            "id" : 5,
+            "classes" : "button",
+            "filter" : "seo",
+            "textcontent" : "SEO"
+             
+         }
+
+    ],
+    "images" : [
+        {
+           "id" : 1,
+           "classes" : "element-item  development",
+           "images" : "images/project-1.jpg",
+           "textcontent" : "Online Banking"       
+        },
+        {
+            "id" : 2,
+            "classes" : "element-item  development",
+            "images" : "images/project-2.jpg",
+            "textcontent" : "Industry" 
+             
+         },
+         {
+            "id" : 3,
+            "classes" : "element-item design development marketing",
+            "images" : "images/project-3.jpg",
+            "textcontent" : "BoomBap Audio" 
+             
+         },
+         {
+            "id" : 4,
+            "classes" : "element-item design development marketing",
+            "images" : "images/project-4.jpg",
+            "textcontent" : "Van Moose" 
+             
+         },
+         {
+            "id" : 5,
+            "classes" : "element-item design development marketing seo",
+            "images" : "images/project-5.jpg",
+            "textcontent" : "Joy Moments" 
+             
+         },
+         {
+            "id" : 6,
+            "classes" : "element-item design marketing seo",
+            "images" : "images/project-6.jpg",
+            "textcontent" : "Spark Events" 
+             
+         },
+         {
+            "id" : 7,
+            "classes" : "element-item design marketing",
+            "images" : "images/project-7.jpg",
+            "textcontent" : "Casual Wear" 
+             
+         },
+         {
+            "id" : 8,
+            "classes" : "element-item design marketing",
+            "images" : "images/project-8.jpg",
+            "textcontent" : "Zazoo Apps" 
+             
+         }
+
+    ],
+    "Teaout" : [
+        {
+           "id" : 1,
+           "classes" : "images/team-1.png",
+           "filter" : "John Whitelong",
+           "textcontent" : "General Manager"
+            
+        },
+        {
+            "id" : 2,
+            "classes" : "images/team-2.png",
+            "filter" : "Veronique Smith",
+            "textcontent" : "Business Develope"
+             
+         },
+         {
+            "id" : 3,
+            "classes" : "images/team-3.png",
+            "filter" : "Chris Zimerman",
+            "textcontent" : "Online Marketer"
+             
+         },
+         {
+            "id" : 4,
+            "classes" : "images/team-4.png",
+            "filter" : "Mary Villalonga",
+            "textcontent" : "Community Manage"
+             
+         }
+
+    ]
+}

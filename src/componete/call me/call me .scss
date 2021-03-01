@@ -1,0 +1,155 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+
+
+
+.call{
+    padding-top: 7rem;
+    @include breakepoint-down(mid){
+        padding-top: 6.625rem;
+    }
+    padding-bottom: 5.625rem;
+    background-color: #153e52;
+    &-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-call{
+        width: 100%;
+        .call-item{
+            @include flexbox(6);
+            @include breakepoint-down(mid){
+                @include flexbox(12);
+             }
+    
+            padding-left: 15px;
+            padding-right: 15px;
+    
+            .text-content{
+                margin-top: 1.375rem;
+                margin-right: 1.75rem;
+                margin-left: 3rem;
+
+                @include breakepoint-down(mid){
+                   margin: 0px;
+                   margin-bottom: 3.125rem;
+                 }
+                span{
+                    font-size: 13px;
+                }
+                h2{
+                    margin-bottom: 1.375rem;
+                    color: $white;
+                }
+                p{
+                    color: $pargraph-header;
+                }
+                ul{
+                    color: $pargraph-header;
+                }
+            }
+            form{
+                @include breakepoint-up(lg){
+                    margin-left: 1.75rem;
+                    margin-right: 3rem;
+                 }
+                 .form-group{
+                    margin-bottom: 0.625rem;
+                    position: relative;
+                    color: #dfe5ec;
+                    .form-control-input{
+                        display: block;
+                        width: 100%;
+                        padding-top: 1.25rem;
+                        padding-bottom: 0.25rem;
+                        padding-left: 1.3125rem;
+                        border: 1px solid #dadada;
+                        border-radius: 0.25rem;
+                        background-color: #fff;
+                        color: #787976;
+                        font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+                        transition: all 0.2s;
+                        -webkit-appearance: none;
+                        border: 1px solid #39728f;
+                        background-color: #2a5d77;
+                        color: #fff;
+                    }
+                    label{
+                        display: inline-block;
+                        margin-bottom: 0.5rem;
+                        position: absolute;
+                        top: 0.8125rem;
+                        left: 1.375rem;
+                    }
+                    .label-control{
+
+                        color: #fff;
+                        opacity: 1;
+                        font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+                        cursor: text;
+                        transition: all 0.2s ease;
+                    }
+                    ul{
+                        margin-top: 0.600rem;
+                        font-size: 0.75rem;
+                        line-height: 1.125rem;
+                        text-align: left;
+                        color: $pargraph-header;
+                    }
+                    .form-control-select{
+                        display: block;
+                        width: 100%;
+                        padding-top: 1.25rem;
+                        padding-bottom: 0.25rem;
+                        padding-left: 1.3125rem;
+                        border: 1px solid #dadada;
+                        border-radius: 0.25rem;
+                        background-color: #fff;
+                        color: #787976;
+                        font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+                        transition: all 0.2s;
+                        -webkit-appearance: none;
+                        padding-top: 0.5rem;
+                        padding-bottom: 0.5rem;
+                        height: 3rem;
+                        border: 1px solid #39728f;
+                        background-color: #2a5d77;
+                        color: #fff;
+                    }
+                    .white{
+
+                        position: relative;
+                        margin-bottom: 1.25rem;
+  
+                    }
+                    button{
+                        width: 100%;
+                    }
+                    .form-control-input:focus,
+                    .form-control-select:focus,
+                    .form-control-textarea:focus {
+                        border: 1px solid #a1a1a1;
+                        outline: none; /* Removes blue border on focus */
+                    }
+
+                    .form-control-input:hover,
+                    .form-control-select:hover{
+                        border: 1px solid #dadada;
+                    }
+
+                    .form-control-input:focus + .label-control,
+                    .form-control-input:valid + .label-control {
+                        top: 0.125rem;
+                        opacity: 1;
+                        font-size: 0.75rem;
+                        font-weight: 500;
+                    }
+                 }
+
+            }
+        }
+
+    }
+
+}
+

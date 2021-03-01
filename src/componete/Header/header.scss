@@ -1,0 +1,45 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+
+.Header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./header-background.jpg') center center no-repeat;
+    height: calc(var(--vh, 1vh) * 100);
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+
+    &-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        @include breakepoint-up(lg){
+            max-width: 55%;
+        }
+        @include breakepoint-down(mid){
+            width: 65%;
+        }
+        @include breakepoint-down(small){
+            max-width: 100%;
+        }
+        h1{
+            color: $white;
+            margin-bottom: 0.5rem;
+        }
+    }
+    &-pargraph{
+        margin-left: auto;
+        margin-right: auto;
+        color: $pargraph-header;
+        font-weight: 500;
+        font: 400 24px "Open Sans", sans-serif;
+        @include breakepoint-down(small){
+            font: 400 13px "Open Sans", sans-serif;
+            margin-bottom: 35px;
+        }
+
+    }
+
+
+}

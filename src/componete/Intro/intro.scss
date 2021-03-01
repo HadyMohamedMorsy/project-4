@@ -1,0 +1,117 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+.intro{
+
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+    background-color: $white;
+    @include breakepoint-up(mid){
+        padding-top: 6.875rem;
+    }
+    &-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-item{
+        @include flexbox(5);
+        padding-right: 15px;
+        padding-left: 15px;
+
+        @include breakepoint-down(mid){
+            @include flexbox(12);
+        }
+        span{
+            color: $green;
+        }   font-size: $font-sm;
+        
+    }
+    &-item:first-child{
+        @include breakepoint-down(mid){
+            margin-bottom: 3rem;
+        }
+
+    }
+    &-item:last-child{
+        @include flexbox(7);
+        padding-right: 15px;
+        padding-left: 15px;
+        @include breakepoint-down(mid){
+            @include flexbox(12);
+        }
+        .intro-image{
+            border-radius: 0.25rem;
+            overflow: hidden;
+            width: 100%;
+            img{
+                margin: 0;
+                width: 100%;
+                border-radius: 0.25rem;
+                transition: all 0.3s;
+            }
+
+            &:hover {
+                img{
+                    -moz-transform: scale(1.15);
+                    -webkit-transform: scale(1.15);
+                    transform: scale(1.15);
+                }
+            }  
+        }
+
+    }
+    &-icones-child{
+        @include flexbox(3.5);
+
+        @include breakepoint-down(mid){
+            text-align: center;
+        }
+        
+        padding-top: 3rem;
+        padding-bottom: 2.875rem;
+        @include breakepoint-down(mid){
+            @include flexbox(12);
+        }
+    }
+    &-icones-child:nth-child(2){
+        @include breakepoint-up(xl){
+            margin-right: 2.875rem;
+            margin-left: 2.875rem;
+        }
+        @include breakepoint-up(lg){
+            margin-right: 2.5rem;
+            margin-left: 2.5rem;
+        }
+        @include breakepoint-down(mid){
+                margin: 0;
+        }
+    }
+    .Icont-image{
+
+        position: relative;
+        width: 6rem;
+        height: 6rem;
+        margin-bottom: 1rem;
+        line-height: 6rem;
+        @include breakepoint-down(mid){
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .image-here{
+            position: absolute;
+            width: 6rem;
+            height: 6rem;
+            background-image: url('./hexagon-green.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 6rem 6rem;
+            .fonts-icon{
+                font-size: 1.75rem;
+                color: $white;
+            }
+        }
+    }
+    &-thunder{
+        font: 700 1rem/1.375rem "Montserrat", sans-serif;
+        color: $Leaden;
+    }
+}

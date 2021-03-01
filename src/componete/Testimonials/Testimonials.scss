@@ -1,0 +1,101 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+.testemonia {
+    padding-top: 6.375rem;
+    padding-bottom: 6.5rem;
+    background-color: $services;
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        .col{
+            @include flexbox(12);
+            padding-right: 15px;
+            padding-left: 15px;
+            h2{
+                text-align: center;
+                margin-bottom: 0;
+            }
+            p{
+                text-align: center;
+                margin-right: auto;
+                margin-left: auto;
+               @include breakepoint-up(mid){
+                    width: 45%;
+               }
+               @include breakepoint-down(small){
+                    width: 85%;
+                }
+
+            }
+            .slider-container{
+                position: relative;
+                .right{
+                    position: absolute;
+                    right: 1rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    font-size: 30px;
+                }
+                .left{
+                    position: absolute;
+                    left: 1rem;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    font-size: 30px;;
+
+                }
+
+                .swiper-container{
+                    position: static;
+                    width: 90%;
+                    text-align: center;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    list-style: none;
+                    padding: 0;
+                    z-index: 1;
+                    .swiper-wrapper{
+                        position: relative; 
+                        width: 100%;
+                        height: 100%;
+                        z-index: 1;
+                        box-sizing: content-box;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        .swiper-slider{
+                            img{
+                                width: 6rem;
+                                height: 6rem;
+                                margin-right: auto;
+                                margin-bottom: 0.25rem;
+                                margin-left: auto;
+                                border-radius: 50%;
+                            }
+                            .content-text{
+                                padding: 1.25rem;
+                                padding-bottom: 0px;
+                                .content-text-margin{
+                                    margin-bottom: 0.625rem;
+                                    font-style: italic;
+                                    color: #797a77;
+                                }
+                                .testimonial-author{
+                                    color: #484a46;
+                                    font: 700 1rem/1.375rem "Montserrat", sans-serif;
+                                }
+                           
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,93 @@
+@import '../../helper-scss/varebales.scss';
+@import '../../helper-scss/mixenes.scss';
+
+.team{
+    padding-top: 6.375rem;
+    padding-bottom: 3.375rem;
+    background-color: $services;
+    text-align: center;
+
+    .row-team{
+        max-width: 100%;
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        flex-wrap: wrap;
+        .col{
+            @include flexbox(12);
+
+            p{
+                width: 45%;
+                
+              @include breakepoint-up(lg){
+                    width: 45%;
+              }
+              @include breakepoint-up(mid){
+                width: 65%;
+              }
+              @include breakepoint-down(small){
+                    width: 85%;
+              }
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+
+        .col-team{
+            padding-left: 15px;
+            padding-right: 15px;
+
+
+            @include breakepoint-down(small){
+                @include flexbox(12);
+              }
+
+              
+            @include breakepoint-up(mid){
+                @include flexbox(6);
+              }
+
+              @include breakepoint-up(lg){
+                @include flexbox(3);
+              }
+              .team-member{
+                margin-bottom: 3.5rem;
+                @include breakepoint-up(lg){
+                        width: 14.375rem;
+                        margin-right: 1.375rem;
+                        margin-left: 1.375rem;
+                  }
+                  .p-large{
+                        margin-bottom: 0.25rem;
+                  }
+                  .job-title{
+                    margin: 0;
+                    margin-bottom: 0.75rem;
+                    color: #484a46;
+                    font: 700 1rem/1.375rem "Montserrat", sans-serif;
+                  }
+                  .fonts{
+                    margin-right: 2.3125rem;
+                  }
+                  .image-wrapper{
+                    overflow: hidden;
+                    img{
+                        max-width: 100%;
+                        vertical-align: middle;
+                        transition: all 0.3s;
+                        height :auto !important;
+                        margin: 0;
+                    }
+                    &:hover{
+                        img{
+                            -moz-transform: scale(1.15);
+                            -webkit-transform: scale(1.15);
+                            transform: scale(1.15);
+                            vertical-align: middle;
+                        }
+                    }
+                  }
+              }
+        }
+    }
+}
